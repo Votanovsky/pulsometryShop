@@ -1,0 +1,38 @@
+.reviews {
+    padding-bottom: 70px;
+    &__tittle {
+        font-weight: 700;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &-content {
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__img {
+            margin-right: 60px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: 700;
+            color: #000;
+        }
+        &__rank {
+            font-weight: 300;
+            font-size: 13px;
+            color: #5d5d5d;
+        }
+        &__rev {
+            font-size: 16;
+            font-weight: 400;
+            color: #000;
+            p {
+                margin-bottom: 0;
+                margin-top: 15px;
+            }
+        }
+    }
+}
