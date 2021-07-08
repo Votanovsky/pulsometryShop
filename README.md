@@ -1,3 +1,3 @@
 # pulsometryShop
 Магазин по продаже пульсометров.
-Технологии html, css, 
+Технологии html, sass, js + jquery (плагин swiper для карусели). 
